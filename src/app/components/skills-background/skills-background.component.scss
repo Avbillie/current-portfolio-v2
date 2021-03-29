@@ -1,0 +1,314 @@
+/* Skill Section */
+
+.skill-section {
+  background-color: white;
+  height: max-content;
+  padding: 2rem;
+}
+
+.skill-background {
+  background-color: rgb(255, 255, 255);
+  border: 0.2rem solid palegoldenrod;
+  height: auto;
+  padding: 2rem;
+  margin: auto;
+  align-items: center;
+  border-radius: 0.7rem;
+}
+
+.skill-container {
+  background-color: transparent;
+}
+
+.skill-title {
+  background-color: transparent;
+  text-align: center;
+  font-weight: 300;
+  font-size: 2rem;
+  margin: auto;
+  padding: 0%;
+
+}
+
+.skill-title h1 {
+  margin: auto;
+  width: max-content;
+}
+
+.skill-title hr{
+  margin: auto 0rem;
+}
+
+.skill-items-img-header{
+  content: '&';
+  width: 5rem;
+  height: 5rem;
+  margin:auto;
+  border-radius: 4rem;
+  border: 0.2rem solid palegoldenrod;
+}
+.skill-items-img {
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  border: wavy palegoldenrod;
+  margin: auto;
+}
+
+.LanguagesDiv {
+  margin: auto .2rem auto auto;
+  border-right: palegoldenrod .1rem solid;
+}
+.Languages-FrameworksHeader{
+  text-align: center;
+  margin: auto;
+
+}
+.FrameworksDiv{
+  margin: auto auto auto .2rem;
+  border-left: palegoldenrod .1rem solid;
+}
+
+
+// .framework-skill-item {
+//   padding: 1%;
+//   margin: 0 auto;
+// }
+
+.framework-img {
+  width: 10rem !important;
+  height: 10rem !important;
+  margin: 2%;
+}
+
+
+.skill-item-box{
+  margin: auto;
+  display: flex;
+}
+// .skill-item-box-2 {
+//   width: max-content;
+// }
+
+.spacer{
+  margin: auto;
+  width: max-content;
+}
+.skill-info h5{
+  margin: 1rem auto;
+  font-style: italic;
+  width: max-content;
+}
+
+.skill-info{
+text-align: center;
+margin: auto;
+}
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  width: 100%;
+  &:before {
+    content: '';
+    // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar
+    background: linear-gradient(to right, transparent, palegoldenrod, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+  }
+  &:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+
+    padding: 0 .5em;
+    line-height: 1.5em;
+    // this is really the only tricky part, you need to specify the background color of the container element...
+    color: #818078;
+    background-color: #fcfcfa;
+  }
+}
+.width{
+  width: 20%;
+}
+.hr-text-2 {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: .5;
+  margin: auto;
+  &:before {
+    content: '';
+    // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+  }
+  &:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    color: black;
+
+    padding: 0 .5em;
+    line-height: 1.5em;
+    // this is really the only tricky part, you need to specify the background color of the container element...
+    color: #818078;
+    background-color: #fcfcfa;
+  }
+}
+// .display-flex{
+//   display: flex;
+//   margin: auto;
+// }
+
+
+.thread-animation{
+  height: max-content;
+  padding: 0% !important;
+  margin: auto;
+}
+
+// .thread-animation hr {
+//   display: block;
+//   position: absolute;
+//   border-top: 2px solid #000;
+
+//   left: 0px;
+//   width: 100%;
+//   margin: auto;
+// }
+
+.thread-animation hr.right {
+  left: auto;
+  right: 0px;
+}
+
+.thread-animation hr.left {
+  left: 0px;
+  right: auto;
+}
+
+#thread1 {
+  top: 0.8em;
+  border-color: palegoldenrod;
+  border-width: 2px;
+}
+
+#thread2 {
+  top: 1.8em;
+  /*right:15px;*/
+  border-color: #03afff;
+  border-width: 2px;
+}
+
+#thread3 {
+  top: 1.8em;
+  /*right:15px;*/
+  border-color: palegoldenrod;
+  border-width: 2px;
+}
+
+.margin-auto{
+  margin:auto 0 auto auto;
+}
+
+.thread-animation hr#thread1 {
+  top: 0.8em;
+  border-color: palegoldenrod;
+  -webkit-animation: thread2 10s infinite;
+  -moz-animation: thread2 10s infinite;
+  -o-animation: thread2 10s infinite;
+  animation: thread2 10s infinite;
+}
+
+.thread-animation hr#thread2 {
+  top: 1.8em;
+  /*right:15px;*/
+  border-color: #03afff;
+  -webkit-animation: thread2 8s infinite;
+  -moz-animation: thread2 8s infinite;
+  -o-animation: thread2 8s infinite;
+  animation: thread2 8s infinite;
+}
+
+.thread-animation hr#thread3 {
+  top: 2.8em;
+  /* 	right:15px; */
+  border-color: palegoldenrod;
+  -webkit-animation: thread2 7s infinite;
+  -moz-animation: thread2 7s infinite;
+  -o-animation: thread2 7s infinite;
+  animation: thread2 7s infinite;
+}
+
+.thread-animation  hr#thread4 {
+  top: 3.8em;
+  border-color: #03afff;
+  -webkit-animation: thread2 11s infinite;
+  -moz-animation: thread2 11s infinite;
+  -o-animation: thread2 11s infinite;
+  animation: thread2 11s infinite;
+}
+
+.header-title hr#thread5 {
+  top: 4.8em;
+  border-color: #3953a4;
+  -webkit-animation: thread2 16s infinite;
+  -moz-animation: thread2 16s infinite;
+  -o-animation: thread2 16s infinite;
+  animation: thread2 16s infinite;
+}
+
+.header-title hr#thread6 {
+  top: 5.8em;
+  -webkit-animation: thread2 6s infinite;
+  -moz-animation: thread2 6s infinite;
+  -o-animation: thread2 6s infinite;
+  animation: thread2 6s infinite;
+}
+
+@media (min-width: 768px) {
+  .thread-animation {
+    font-size: 18px;
+  }
+
+  h1.site-title a {
+    width: 416px;
+    height: 120px;
+    margin: 0px auto 0px;
+    text-indent: -9999px;
+    background: url(https://loomweb.co.za/wp-content/themes/starkers/img/loom-logo-2.png) 50% 5px no-repeat;
+  }
+
+  h1.site-title small {
+    font-size: 35px;
+  }
+
+  .thread-animation hr {
+
+    border-width: 2px;
+  }
+
+}

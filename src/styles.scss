@@ -1,0 +1,509 @@
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+
+hr {
+  padding: 0% !important;
+  background-color: palegoldenrod;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#fullstackVideo {
+  width: 40%;
+  margin: 0 auto;
+}
+
+#fullstackVideo iframe {
+  width: 40%;
+  margin: 0 auto;
+}
+
+a:hover {
+  /*Tag Selector*/
+  color: palegoldenrod;
+  transition: color 0.4s ease 0s;
+  transition-duration: 0.4s;
+  transition-delay: 0s;
+}
+
+#roleLink {
+  color: gray;
+  text-decoration: underline #343a40;
+  font-style: italic;
+}
+
+#roleLink:hover {
+  color: #03afff;
+  text-decoration: none !important;
+  text-shadow: none !important;
+}
+
+#programInfoLink:hover {
+  color: #03afff;
+  text-decoration: underline white;
+  text-shadow: none;
+}
+
+body {
+  width: 100%;
+}
+
+/* Navigation Bar */
+.nav-bar {
+  background-color: #343a40 !important;
+}
+
+.nav-bar-toggler {
+  width: 4rem !important;
+  height: 5rem;
+}
+
+.span-container {
+  padding: 0.2rem;
+}
+
+.navbar-toggler-icon {
+  width: 3rem !important;
+  height: 0% !important;
+  border: white 0.1rem solid !important;
+}
+
+.navbar-title {
+  display: flex;
+  font-size: 2rem;
+  width: max-content;
+}
+
+.navbar-title img {
+  margin: auto 0.5rem auto 0rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.navbar-title h1 {
+  color: white;
+  font-weight: 700;
+  font-weight: 800;
+  font-size: 2rem;
+  text-shadow: 1.5px 1.2px 1.5px #03afff;
+  margin: auto auto auto 0rem !important;
+}
+
+.navbar-nav-links {
+  display: flex;
+  width: max-content;
+  padding: 0.5rem 1rem;
+  justify-content: end;
+  margin-bottom: 0% !important;
+  margin-left: auto;
+}
+
+.navlink {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+
+.search-btn {
+  border-color: palegoldenrod !important;
+  color: white !important;
+}
+
+/* bio introduction */
+
+.main-background {
+
+  background-color: whitesmoke;
+  background-position: center;
+  background-size: cover;
+  height: max-content;
+}
+
+.main-section {
+
+  background-color: white;
+  border: 0.2rem solid palegoldenrod;
+  height: auto;
+  padding: 2rem;
+  margin: auto;
+  width: 100%;
+  border-radius: 0.7rem;
+}
+
+.main-profile-background {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.main-profile-col-1 {
+  padding-bottom: 2rem;
+  height: auto;
+}
+
+.profile-picture {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 10rem;
+}
+
+.main-profile-name-n-school {
+  width: max-content;
+  margin: auto;
+  text-align: center;
+}
+
+.main-profile-name-n-school h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.main-profile-name-n-school h2 {
+  color: #03afff;
+  margin-bottom: 10px;
+}
+
+.main-profile-name-n-school h3 {
+  margin-bottom: 10px;
+}
+
+.main-nav-links {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.icon-nav-link a {
+  display: block;
+  padding: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.icon-size {
+  height: 42px;
+  width: 42px;
+}
+
+.icon-zoom img {
+  transition: 0s all ease-in-out;
+}
+
+.icon-zoom:hover img {
+  transform: scale(1.3);
+}
+
+.about-me-container {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0rem 2rem 2rem;
+  opacity: 100%!important
+}
+
+.about-me-container h1 {
+  font-size: 3.5em;
+  margin-bottom: 10.5px;
+  font-weight: 300;
+  text-align: start;
+  width: auto;
+  height: min-content;
+}
+
+.about-me-container p {
+  margin-bottom: 21px;
+  line-height: 30px;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400px;
+  text-align: start;
+  width: auto;
+  height: min-content;
+}
+
+.fullstack {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.Div60_Links {
+  max-width: auto;
+  max-height: auto;
+  width: auto;
+  height: auto;
+}
+
+
+
+.format {
+  width: 2em;
+  height: 2em;
+  display: flow-root;
+}
+
+
+
+/* .education-list-container {
+} */
+
+.schools {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+
+
+/* Projects Section */
+
+.projects-section {
+  display: flex;
+  background-color: #ebebeb;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: max-content;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  box-sizing: border-box;
+}
+
+.projects-container {
+  background-color: white;
+  border: 0.3rem solid palegoldenrod;
+  border-radius: 0.7rem;
+  height: auto;
+  margin: 0rem 4rem;
+  padding: 0rem 1rem 4rem;
+  box-sizing: content-box;
+}
+
+#projects-carousel {
+  display: flex;
+  background-color: white;
+  background-position: center;
+  background-size: 100%;
+  border: 5px;
+  height: max-content;
+  box-sizing: content-box;
+  width: 100%;
+}
+
+.carousel-button {
+  color: #343a40 !important;
+  text-shadow: 3px 3px 3px palegoldenrod !important;
+  opacity: 100% !important;
+}
+
+.carousel-item {
+  padding: 0% 15%;
+}
+
+.project {
+  padding: 1rem;
+  display: block;
+  border: 0.1rem solid #343a40;
+  justify-content: center !important;
+  text-align: center;
+}
+
+.project-title {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.project-title h1 {
+  width: max-content;
+}
+
+.project-img {
+  width: 60%;
+  height: 50%;
+  border: 0.1rem solid palegoldenrod;
+}
+
+.prev-btn,
+.next-btn {
+  height: 10rem;
+  width: 10rem;
+  margin: auto 0;
+}
+
+/* Contact Section */
+
+.contact-section {
+  display: flex;
+  background-color: white;
+  height: max-content;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  box-sizing: border-box;
+}
+
+.contact-container {
+  display: flex;
+  background-color: #ebebeb;
+  background-size: 100%;
+  border: 0.3rem solid palegoldenrod;
+  height: auto;
+  margin: 0rem 4rem;
+  border-radius: 0.7rem;
+  padding: 1rem 1rem;
+  width: 100%;
+}
+
+.contact-form-container {
+  text-align: start;
+  width: max-content;
+  padding: 0rem !important;
+
+}
+
+.contact-form-background {
+  display: block;
+  background-color: #ebebeb;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1200px;
+  height: auto;
+  width: 100%;
+}
+
+.contact-header h1 {
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.contact-info p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.number,
+.hours {
+  display: flex;
+  padding: .2rem 0rem;
+}
+
+.bold {
+  font-weight: bold;
+  margin-right: .2rem;
+}
+
+.contact-info {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0rem !important;
+}
+
+.form-input-box {
+  width: 100%;
+  font-size: 20px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: .7rem;
+  border: .1rem solid rgb(221, 205, 164);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+.form-input-box::selection {
+  border: 3px solid #03afff;
+}
+
+.send-btn {
+  background-color: transparent;
+  border: 0.1rem solid #343a40;
+  color: #343a40;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.4rem;
+  border-radius: 0.7rem;
+}
+
+.send-btn:hover {
+  background-color: #03afff;
+  color: white;
+  border-color: rgb(221, 205, 164);
+  transition: color 0s ease 0s;
+  transition-duration: 0.2s;
+  transition-delay: 0s;
+}
+
+.footer-qoute-section {
+  background-color: whitesmoke;
+  height: max-content;
+  padding: 3rem;
+
+}
+
+.footer-qoute-container {
+  text-align: center;
+  justify-content: center;
+
+}
+
+.footer-carousel {
+  display: flex;
+  background-position: center;
+  background-size: 100%;
+  border: 5px;
+  height: max-content;
+  box-sizing: content-box;
+  width: 100%;
+
+}
+
+.qoute {
+  background-color: whitesmoke;
+}
+
+.copyright-section {
+  padding: 1rem;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.copyright-container {
+  display: flex;
+  justify-items: center !important;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright-icon {
+  margin-right: .1rem;
+  padding: .1rem;
+  color: #343a40;
+}
+
+.copyright-text {
+  color: #343a40;
+
+}
