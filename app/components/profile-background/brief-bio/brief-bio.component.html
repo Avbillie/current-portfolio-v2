@@ -1,0 +1,32 @@
+<section class="main-profile-col-1">
+  <img class="profile-picture col-lg-12 col-sm-12" [src]="profilePic" alt="MyProfilePic">
+
+
+  <div class="main-profile-name-n-school col-lg-12 col-sm-12">
+  </div>
+  <h2 class="col-lg-12 col-sm-12 col-md-12">Anthony V. Billie Jr.</h2>
+  <h4 class="col-lg-12 col-sm-12 col-md-12 color-highlight">MERN + MEAN Stack Developer</h4>
+
+  <ul *ngFor='let element of linkArray' class="main-nav-links mt-2">
+
+    <li class="icon-nav-link">
+      <a href="{{element.link}}" method="post" enctype="text/plain" target="_blank" rel="noreferrer"><i
+          class="icon-zoom">
+          <img class="icon-size" src="{{element.image}}" alt="email">
+        </i></a>
+    </li>
+
+  </ul>
+
+  <div class="affliations-container mt-5 ">
+    <h3>Affiliations</h3>
+    <hr class="center-diamond">
+    <ul class="affliationsList" *ngFor='let element of affiliationsArray'>
+      <li>
+        <a href="{{element.link}}" target="_blank" rel="noreferrer">
+          <p class="affiliationsLink">{{element.text}}</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
