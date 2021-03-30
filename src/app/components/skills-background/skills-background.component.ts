@@ -45,7 +45,7 @@ export class SkillsBackgroundComponent implements OnInit {
   };
   angular ={
     title: 'Angular',
-    image:'/assets/images/angular.jpg',
+    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/angular.jpg?raw=true',
     alt: 'angular',
     text:['']
   };
