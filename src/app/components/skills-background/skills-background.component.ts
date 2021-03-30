@@ -9,37 +9,37 @@ export class SkillsBackgroundComponent implements OnInit {
   codeImg = '/assets/images/coding.jpg'
   html ={
     title: 'HTML',
-    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/html.jpg',
+    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/html.jpg?raw=true',
     alt: 'html',
     text:['']
   };
   css ={
     title: 'CSS',
-    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/css.jpg',
+    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/css.jpg?raw=true',
     alt: 'css',
     text:['']
   };
   js ={
     title: 'Javascript',
-    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/javascript.jpg',
+    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/javascript.jpg?raw=true',
     alt: 'javascript',
     text:['jQuery']
   };
   ts ={
     title: 'Typescript',
-    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/typescript.jpg',
+    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/typescript.jpg?raw=true',
     alt: 'typescript',
     text:['']
   };
   node ={
     title: 'Nodejs',
-    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/nodejs.jpg',
+    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/nodejs.jpg?raw=true',
     alt: 'html',
     text:['']
   };
   react ={
     title: 'Reactjs',
-    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/react.jpg',
+    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/react.jpg?raw=true',
     alt: 'react',
     text:['']
   };
@@ -51,7 +51,7 @@ export class SkillsBackgroundComponent implements OnInit {
   };
   mongo ={
     title: 'MongoDB',
-    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/mongo.jpg',
+    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/mongo.jpg?raw=true',
     alt: 'mongodb',
     text:['']
   };
