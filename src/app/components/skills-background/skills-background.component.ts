@@ -9,37 +9,37 @@ export class SkillsBackgroundComponent implements OnInit {
   codeImg = '/assets/images/coding.jpg'
   html ={
     title: 'HTML',
-    image:'/assets/images/html.jpg',
+    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/html.jpg',
     alt: 'html',
     text:['']
   };
   css ={
     title: 'CSS',
-    image:'/assets/images/css.jpg',
+    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/css.jpg',
     alt: 'css',
     text:['']
   };
   js ={
     title: 'Javascript',
-    image:'/assets/images/javascript.jpg',
+    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/javascript.jpg',
     alt: 'javascript',
     text:['jQuery']
   };
   ts ={
     title: 'Typescript',
-    image:'/assets/images/typescript.jpg',
+    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/typescript.jpg',
     alt: 'typescript',
     text:['']
   };
   node ={
     title: 'Nodejs',
-    image:'/assets/images/nodejs.jpg',
+    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/nodejs.jpg',
     alt: 'html',
     text:['']
   };
   react ={
     title: 'Reactjs',
-    image:'/assets/images/react.jpg',
+    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/react.jpg',
     alt: 'react',
     text:['']
   };
@@ -51,7 +51,7 @@ export class SkillsBackgroundComponent implements OnInit {
   };
   mongo ={
     title: 'MongoDB',
-    image:'/assets/images/mongo.jpg',
+    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/mongo.jpg',
     alt: 'mongodb',
     text:['']
   };
