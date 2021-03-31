@@ -9,6 +9,7 @@ import { BriefBioComponent } from './components/profile-background/brief-bio/bri
 import { AboutMeComponent } from './components/profile-background/about-me/about-me.component';
 import { EducationInterestsComponent } from './components/profile-background/education-interests/education-interests.component';
 import { SkillsBackgroundComponent } from './components/skills-background/skills-background.component';
+import { InformationalVideosBackgroundComponent } from './components/informational-videos-background/informational-videos-background.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SkillsBackgroundComponent } from './components/skills-background/skills
     BriefBioComponent,
     AboutMeComponent,
     EducationInterestsComponent,
-    SkillsBackgroundComponent
+    SkillsBackgroundComponent,
+    InformationalVideosBackgroundComponent
   ],
   imports: [
     BrowserModule,
