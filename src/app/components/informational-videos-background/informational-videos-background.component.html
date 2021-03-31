@@ -1,1 +1,59 @@
 <p>informational-videos-background works!</p>
+<div id="fullstackVideo" class="embed-responsive embed-responsive-21by9 pop-up-modal">
+  <iframe class="embed-responsive-item" width="500" height="480" src="https://www.youtube.com/embed/H4M19g0xVJs"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+</div>
+
+<div class="skill-section">
+  <div class="skill-background">
+
+    <div class="row">
+      <div class="InformationalVideo-FrameworksHeader col-lg-12">
+        <hr class="hr-text mb-3">
+        <h1>Informational Videos</h1>
+        <hr class="hr-text mt-3 mb-2">
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="skill-title col-lg-6 col-sm-12">
+        <div class="LanguagesDiv col-sm-12 col-lg-12">
+          <div class="row">
+            <div class="skill-info col-lg-3 col-sm-12 col-md-3" *ngFor='let element of imageArray'>
+              <img class="skill-items-img" src='{{element.image}}' alt="{{element.alt}}" />
+              <h5>{{element.title}}</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-title col-lg-6 col-sm-12">
+        <div class="FrameworksDiv col-lg-12 col-sm-12">
+          <div class="row">
+            <div class="skill-info col-lg-3 col-sm-12 col-md-3" *ngFor='let element of imageArray2'>
+              <img class="skill-items-img" src='{{element.image}}' alt="{{element.alt}}" />
+              <h5>{{element.title}}</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="thread-animation mt-3 col-lg-12">
+        <hr id="thread1">
+        <hr id="thread2">
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+  $(document).ready(function () {
+    $('.headerVideoLink').magnificPopup({
+      type: 'inline',
+      midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+    });
+  });
+
+</script>
