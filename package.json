@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod --base-href 'https://Avbillie.github.io/current-portfolio-v2/'",
+    "deploy":"npx angular-cli-ghpages — dir=dist/Project-name",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "cucumber": "node_modules/@cucumber/cucumber ./features"
