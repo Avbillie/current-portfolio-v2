@@ -1,12 +1,5 @@
-<p>informational-videos-background works!</p>
-<div id="fullstackVideo" class="embed-responsive embed-responsive-21by9 pop-up-modal">
-  <iframe class="embed-responsive-item" width="500" height="480" src="https://www.youtube.com/embed/H4M19g0xVJs"
-    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-</div>
-
-<div class="skill-section">
-  <div class="skill-background">
+<div class="section" id="informationalVideos" >
+  <div class="background">
 
     <div class="row">
       <div class="InformationalVideo-FrameworksHeader col-lg-12">
@@ -14,6 +7,50 @@
         <h1>Informational Videos</h1>
         <hr class="hr-text mt-3 mb-2">
       </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-4 mt-4">
+        <div class='video-alignment'>
+          <h5>{{videoArray[0].name}}</h5>
+        </div>
+        <div class="hr1">
+          <hr class="center-diamond">
+        </div>
+        <div class="video1">
+          <iframe class='mt-1' height="200" [src]="link1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mt-4">
+        <div class='video-alignment'>
+          <h5>{{videoArray[1].name}}</h5>
+        </div>
+        <div class="hr1">
+          <hr class="center-diamond">
+        </div>
+        <div class="video2">
+          <iframe class='mt-1' height="200" [src]="link2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mt-4">
+        <div class='video-alignment'>
+          <h5>{{videoArray[2].name}}</h5>
+        </div>
+        <div class="hr1">
+          <hr class="center-diamond">
+        </div>
+        <div class="video3">
+          <iframe class='mt-1' height="200" [src]="link3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+
+
     </div>
 
     <div class="row">
@@ -26,12 +63,6 @@
   </div>
 
 </div>
-
-<script>
-  $(document).ready(function () {
-    $('.headerVideoLink').magnificPopup({
-      type: 'inline',
-      midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-  });
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js">
 </script>
+

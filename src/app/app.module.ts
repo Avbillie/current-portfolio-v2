@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { PinchZoomModule } from 'ngx-pinch-zoom';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationBarComponent } from './components/navigation-bar/navigation-bar.component';
@@ -8,8 +8,9 @@ import { ProfileBackgroundComponent } from './components/profile-background/prof
 import { BriefBioComponent } from './components/profile-background/brief-bio/brief-bio.component';
 import { AboutMeComponent } from './components/profile-background/about-me/about-me.component';
 import { EducationInterestsComponent } from './components/profile-background/education-interests/education-interests.component';
-import { SkillsBackgroundComponent } from './components/skills-background/skills-background.component';
+import { SkillsComponent } from './components/skills/skills.component';
 import { InformationalVideosBackgroundComponent } from './components/informational-videos-background/informational-videos-background.component';
+import { SkillsNProjectsBackgroundComponent } from './components/skills-n-projects-background/skills-n-projects-background.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +20,14 @@ import { InformationalVideosBackgroundComponent } from './components/information
     BriefBioComponent,
     AboutMeComponent,
     EducationInterestsComponent,
-    SkillsBackgroundComponent,
-    InformationalVideosBackgroundComponent
+    SkillsComponent,
+    InformationalVideosBackgroundComponent,
+    SkillsNProjectsBackgroundComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PinchZoomModule
   ],
   providers: [],
   bootstrap: [AppComponent]

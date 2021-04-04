@@ -71,11 +71,7 @@ h1.site-title a {
   background: url(https://loomweb.co.za/wp-content/themes/starkers/img/loom-logo-2-mobile.png) 50% 3px no-repeat;
 }
 
-.thread-animation{
 
-  height: max-content;
-  padding: 0% !important;
-}
 
 // .thread-animation hr {
 //   display: block;
@@ -96,7 +92,7 @@ h1.site-title a {
   left: 0px;
   right: auto;
 }
-.thread-animation hr#thread1 {
+.thread1 {
   top: 0.8em;
   border-color: palegoldenrod;
   -webkit-animation: thread2 10s infinite;
@@ -105,7 +101,7 @@ h1.site-title a {
   animation: thread2 10s infinite;
 }
 
-.thread-animation hr#thread2 {
+.thread2 {
   top: 1.8em;
   /*right:15px;*/
   border-color: #03afff;
@@ -117,21 +113,12 @@ h1.site-title a {
 
 .thread-animation hr#thread3 {
   top: 2.8em;
-  /* 	right:15px; */
   border-color: palegoldenrod;
-  -webkit-animation: thread2 7s infinite;
-  -moz-animation: thread2 7s infinite;
-  -o-animation: thread2 7s infinite;
-  animation: thread2 7s infinite;
 }
 
 .thread-animation  hr#thread4 {
   top: 3.8em;
   border-color: #03afff;
-  -webkit-animation: thread2 11s infinite;
-  -moz-animation: thread2 11s infinite;
-  -o-animation: thread2 11s infinite;
-  animation: thread2 11s infinite;
 }
 
 .header-title hr#thread5 {

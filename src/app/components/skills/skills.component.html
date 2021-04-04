@@ -1,0 +1,26 @@
+<div class="languages-container col-lg-12 col-sm-12">
+  <div class="Languages-FrameworksHeader col-lg-12">
+    <hr class="hr-text mb-3">
+    <h3>Languages</h3>
+    <hr class="hr-text mt-3 mb-2">
+    <!-- <hr id="thread2" class="left">
+        <hr id="thread3" class="right"> -->
+    <hr class="hr-text-2 " data-content="AND">
+    <hr class="hr-text mt-2 mb-3">
+    <h3>Frameworks</h3>
+    <hr class="hr-text mt-3 mb-5">
+  </div>
+
+
+  <div class="skill-title col-lg-12 col-sm-12">
+    <div class="LanguagesDiv col-sm-12 col-lg-12">
+      <div class="row">
+        <div class="skill-info col-lg-3 col-sm-12 col-md-3" *ngFor='let element of imageArray'>
+          <img class="skill-items-img" src='{{element.image}}' alt="{{element.alt}}" />
+          <p>{{element.title}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

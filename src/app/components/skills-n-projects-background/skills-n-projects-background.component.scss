@@ -1,0 +1,34 @@
+.skill-section {
+  background-color: white;
+  height: max-content;
+  padding: 2rem;
+}
+
+.skill-background {
+  background-color: rgb(255, 255, 255);
+  border: 0.2rem solid palegoldenrod;
+  height: auto;
+  padding: 2rem;
+  margin: auto;
+  align-items: center;
+  border-radius: 0.7rem;
+}
+
+.thread-animation{
+  height: max-content;
+  padding: 0% !important;
+  margin: auto;
+}
+
+#thread1 {
+  top: 0.8em;
+  border-color: palegoldenrod;
+  border-width: 2px;
+}
+
+#thread2 {
+  top: 1.8em;
+  /*right:15px;*/
+  border-color: #03afff;
+  border-width: 2px;
+}

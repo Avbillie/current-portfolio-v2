@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-skills-background',
-  templateUrl: './skills-background.component.html',
-  styleUrls: ['./skills-background.component.scss']
+  selector: 'app-skills',
+  templateUrl: './skills.component.html',
+  styleUrls: ['./skills.component.scss']
 })
-export class SkillsBackgroundComponent implements OnInit {
+export class SkillsComponent implements OnInit {
   codeImg = '/assets/images/coding.jpg'
   html ={
     title: 'HTML',
@@ -38,7 +38,7 @@ export class SkillsBackgroundComponent implements OnInit {
     text:['']
   };
   react ={
-    title: 'Reactjs',
+    title: 'React',
     image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/react.jpg?raw=true',
     alt: 'react',
     text:['']
@@ -57,8 +57,7 @@ export class SkillsBackgroundComponent implements OnInit {
   };
   // rightImgArray: any[]=[];
   // leftImgArray: any[]=[];
-  imageArray: any =[this.ts, this.html, this.css, this.js];
-  imageArray2: any =[this.node, this.mongo, this.angular, this.react]
+  imageArray: any =[this.ts, this.html, this.css, this.js, this.node, this.mongo, this.angular, this.react];
 
 
   constructor() { }
