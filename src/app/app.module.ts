@@ -11,6 +11,7 @@ import { EducationInterestsComponent } from './components/profile-background/edu
 import { SkillsComponent } from './components/skills/skills.component';
 import { InformationalVideosBackgroundComponent } from './components/informational-videos-background/informational-videos-background.component';
 import { SkillsNProjectsBackgroundComponent } from './components/skills-n-projects-background/skills-n-projects-background.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { SkillsNProjectsBackgroundComponent } from './components/skills-n-projec
     SkillsComponent,
     InformationalVideosBackgroundComponent,
     SkillsNProjectsBackgroundComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,

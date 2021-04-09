@@ -1,0 +1,63 @@
+
+  <section class="project-scroll-container">
+    <div *ngFor="let element of projectsArray" class="project row">
+      <div class="project-img col-lg-4">
+        <img src="{{element.image}}" alt="project 2">
+      </div>
+
+        <div class="project-title col-lg-8">
+          <a  href="{{element.link}}" target="_blank">
+            <h6>{{element.title}}</h6>
+          </a>
+          <p >{{element.text}}</p>
+        </div>
+
+    </div>
+
+  </section>
+
+
+
+
+<!-- <div id="projects-carousel" class="carousel slide" data-ride="false">
+
+  <div class="carousel-inner">
+
+    <section class="carousel-item active">
+      <div class="project">
+        <div class="project-title">
+          <a href="https://avbillie.github.io/Weather-Dashboard/" target="_blank">
+            <h6>Weather Dashboard</h6>
+          </a>
+          <p>An interactive web weather application that displays the forecast of the selected city.</p>
+
+        </div>
+        <img class="project-img col-lg-12" src="./assets/images/weather-dashboard.jpg?raw=true" alt="project 1">
+      </div>
+    </section>
+
+    <section *ngFor="let element of projectsArray" class="carousel-item">
+      <div class="project">
+        <div class="project-title">
+          <a href="{{element.link}}" target="_blank">
+            <h6>{{element.title}}</h6>
+          </a>
+          <p>{{element.text}}
+          </p>
+
+        </div>
+        <img class="project-img col-lg-12" src="{{element.image}}" alt="project 2">
+      </div>
+
+    </section>
+
+    <a class=" prev-btn carousel-control-prev" href="#projects-carousel" role="button" data-slide="prev">
+      <span class="carousel-button carousel-control-prev-icon"></span>
+    </a>
+
+    <a class="next-btn carousel-control-next" href="#projects-carousel" role="button" data-slide="next">
+      <span class="carousel-button carousel-control-next-icon"></span>
+    </a>
+
+  </div>
+</div> -->

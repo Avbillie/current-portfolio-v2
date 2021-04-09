@@ -9,49 +9,49 @@ export class SkillsComponent implements OnInit {
   codeImg = '/assets/images/coding.jpg'
   html ={
     title: 'HTML',
-    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/html.jpg?raw=true',
+    image:'./assets/images/html.jpg?raw=true',
     alt: 'html',
     text:['']
   };
   css ={
     title: 'CSS',
-    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/css.jpg?raw=true',
+    image:'./assets/images/css.jpg?raw=true',
     alt: 'css',
     text:['']
   };
   js ={
     title: 'Javascript',
-    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/javascript.jpg?raw=true',
+    image:'./assets/images/javascript.jpg?raw=true',
     alt: 'javascript',
     text:['jQuery']
   };
   ts ={
     title: 'Typescript',
-    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/typescript.jpg?raw=true',
+    image:'./assets/images/typescript.jpg?raw=true',
     alt: 'typescript',
     text:['']
   };
   node ={
     title: 'Nodejs',
-    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/nodejs.jpg?raw=true',
+    image:'./assets/images/nodejs.jpg?raw=true',
     alt: 'html',
     text:['']
   };
   react ={
     title: 'React',
-    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/react.jpg?raw=true',
+    image:'./assets/images/react.jpg?raw=true',
     alt: 'react',
     text:['']
   };
   angular ={
     title: 'Angular',
-    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/angular.jpg?raw=true',
+    image:'./assets/images/angular.jpg?raw=true',
     alt: 'angular',
     text:['']
   };
   mongo ={
     title: 'MongoDB',
-    image:'https://github.com/Avbillie/current-portfolio-v2/blob/gh-pages/assets/images/mongo.jpg?raw=true',
+    image:'./assets/images/mongo.jpg?raw=true',
     alt: 'mongodb',
     text:['']
   };

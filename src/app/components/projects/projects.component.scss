@@ -1,50 +1,69 @@
-.skill-section {
-  background-color: white;
-  height: max-content;
-  padding: 2rem;
+.project-scroll-container{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 18rem;
+  border: .2rem palegoldenrod solid;
+}
+.project{
+  border-bottom: .1rem black solid;
+  padding: 1rem;
 }
 
-.skill-background {
-  background-color: rgb(255, 255, 255);
-  border: 0.2rem solid palegoldenrod;
-  height: auto;
-  padding: 2rem;
+.project:hover{
+  background-color: whitesmoke;
+}
+
+.project-title {
+  background-color: transparent;
+  font-weight: 300;
   margin: auto;
-  align-items: center;
-  border-radius: 0.7rem;
+  text-align: auto;
 }
 
-.margin-auto{
-  margin: auto;
+.project-title h6 {
+  text-align: start;
 }
 
-// .border-left{
-//   border-left: 1rem solid #03afff;
+// .project-title p{
+//   text-align: start;
 // }
-.thread-animation{
-  height: max-content;
-  padding: 0% !important;
+
+.project-img{
   margin: auto;
+  padding-right: 0;
 }
 
-#thread1 {
-  top: 0.8em;
-  border-color: palegoldenrod;
-  border-width: 2px;
+.project-img  img{
+  width: 8rem;
+  height:6rem;
+  padding: 0%;
+  border: solid palegoldenrod .1rem;
 }
-
-#thread2 {
-  top: 1.8em;
-  /*right:15px;*/
-  border-color: #03afff;
-  border-width: 2px;
+.projects-container{
+  width: max-content;
 }
+.projectsDiv {
+  margin: auto .2rem auto auto;
 
-.projects-FrameworksHeader,
-.languages-FrameworksHeader{
+}
+.projects-FrameworksHeader{
   text-align: center;
   margin: auto;
 
+}
+
+.projects-info p{
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400px;
+  font-style: italic;
+  width: max-content;
+  margin: .1rem auto 1rem;
+}
+
+.projects-info{
+text-align: center;
+margin: auto;
 }
 
 .hr-text {
@@ -116,4 +135,32 @@
     color: #818078;
     background-color: #fcfcfa;
   }
+}
+
+
+.projects-FrameworksHeader h1{
+  width: max-content;
+  margin: auto;
+}
+
+
+#projects-carousel {
+  display: flex;
+  background-color: white;
+  background-position: center;
+  background-size: 100%;
+  border: 5px;
+  height: max-content;
+  box-sizing: content-box;
+  width: 100%;
+}
+
+.carousel-button {
+  color: #343a40 !important;
+  text-shadow: 3px 3px 3px palegoldenrod !important;
+  opacity: 100% !important;
+}
+
+.carousel-item {
+  padding: 0% 15%;
 }
