@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href https://Avbillie.github.io/current-portfolio-v2/",
+    "build": "ng build --prod --base-href https://developer-portfolio-version1.herokuapp.com/",
     "deploy": "npx angular-cli-ghpages --dir=dist/current-portfolio",
     "lint": "ng lint",
     "e2e": "ng e2e",
