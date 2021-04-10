@@ -33,7 +33,8 @@
     "rxjs": "~6.6.0",
     "save-dev": "0.0.1-security",
     "tslib": "^2.0.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.2",
+    "@angular/compiler-cli": "~11.0.9"
   },
   "engines": {
     "node": "12.18.3",
@@ -41,7 +42,6 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1100.7",
-    "@angular/compiler-cli": "~11.0.9",
     "@cucumber/cucumber": "^7.0.0",
     "@types/jasmine": "~3.6.0",
     "@types/jquery": "^3.5.5",
