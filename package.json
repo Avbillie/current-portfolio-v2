@@ -5,11 +5,12 @@
     "ng": "ng",
     "postinstall": "ng build --aot --prod",
     "start": "node server.js",
-    "build": "ng build --prod --base-href https://Avbillie.github.io/current-portfolio-v2/",
-    "deploy": "npx angular-cli-ghpages --dir=dist/current-portfolio",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "cucumber": "node_modules/@cucumber/cucumber ./features"
+    "e2e": "ng e2e"
+  },
+  "ghpages-script": {
+    "build": "ng build --prod --base-href https://Avbillie.github.io/current-portfolio-v2/",
+    "deploy": "npx angular-cli-ghpages --dir=dist/current-portfolio"
   },
   "private": true,
   "dependencies": {
