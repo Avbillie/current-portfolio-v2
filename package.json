@@ -6,12 +6,9 @@
     "postinstall": "ng build --aot --prod",
     "start": "node server.js",
     "lint": "ng lint",
-    "e2e": "ng e2e"
-  },
-  "ghpages-script": {
-    "build": "ng build --prod --base-href https://Avbillie.github.io/current-portfolio-v2/",
-    "deploy": "npx angular-cli-ghpages --dir=dist/current-portfolio"
-
+    "e2e": "ng e2e",
+    "ghpagebuild": "ng build --prod --base-href https://Avbillie.github.io/current-portfolio-v2/",
+    "ghpagedeploy": "npx angular-cli-ghpages --dir=dist/current-portfolio"
   },
   "private": true,
   "dependencies": {
