@@ -10,8 +10,8 @@
   },
   "ghpages-script": {
     "build": "ng build --prod --base-href https://Avbillie.github.io/current-portfolio-v2/",
-    "deploy": "npx angular-cli-ghpages --dir=dist/current-portfolio",
-    "switch":""
+    "deploy": "npx angular-cli-ghpages --dir=dist/current-portfolio"
+
   },
   "private": true,
   "dependencies": {

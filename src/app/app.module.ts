@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { PinchZoomModule } from 'ngx-pinch-zoom';
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { Routes, RouterModule } from '@angular/router';
 import { NavigationBarComponent } from './components/navigation-bar/navigation-bar.component';
 import { ProfileBackgroundComponent } from './components/profile-background/profile-background.component';
 import { BriefBioComponent } from './components/profile-background/brief-bio/brief-bio.component';
@@ -12,6 +12,15 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { InformationalVideosBackgroundComponent } from './components/informational-videos-background/informational-videos-background.component';
 import { SkillsNProjectsBackgroundComponent } from './components/skills-n-projects-background/skills-n-projects-background.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { IndexComponent } from './components/index/index.component';
+
+const routes: Routes = [
+  {
+  path:'',
+  component: IndexComponent
+  }
+];
+
 
 @NgModule({
   declarations: [
@@ -25,10 +34,11 @@ import { ProjectsComponent } from './components/projects/projects.component';
     InformationalVideosBackgroundComponent,
     SkillsNProjectsBackgroundComponent,
     ProjectsComponent,
+    IndexComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    RouterModule.forRoot(routes),
     PinchZoomModule
   ],
   providers: [],
