@@ -55,6 +55,18 @@
   font-size: 1.4rem;
   color: palegoldenrod;
 }
+#time{
+  display: block;
+  padding: 0.5rem;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.3rem;
+  text-shadow: 1.5px 1.2px 1.5px #03afff;
+  border: solid 1px palegoldenrod;
+  border-radius: 0.7rem;
+  background-color: rgb(100, 100, 100);
+  margin-left: 1rem;
+}
 
 .nav-link:hover{
   color: white;

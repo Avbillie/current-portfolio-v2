@@ -1,0 +1,26 @@
+
+#myBtn img {
+  width: 2rem;
+  height: 2.4rem;
+}
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 35px;
+  z-index: 99;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 7px 10px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  border: #03afff solid 2px;
+  width: max-content;
+  height: max-content;
+  z-index: 99;
+}
+#myBtn:hover {
+  color: #343a40;
+  background-color: whitesmoke;
+  margin-bottom: .5rem;
+}

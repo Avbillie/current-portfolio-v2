@@ -13,6 +13,8 @@ import { InformationalVideosBackgroundComponent } from './components/information
 import { SkillsNProjectsBackgroundComponent } from './components/skills-n-projects-background/skills-n-projects-background.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { IndexComponent } from './components/index/index.component';
+import { QoutesComponent } from './components/qoutes/qoutes.component';
+import { CopyrightComponent } from './components/copyright/copyright.component';
 
 const routes: Routes = [
   {
@@ -35,6 +37,8 @@ const routes: Routes = [
     SkillsNProjectsBackgroundComponent,
     ProjectsComponent,
     IndexComponent,
+    QoutesComponent,
+    CopyrightComponent,
   ],
   imports: [
     BrowserModule,

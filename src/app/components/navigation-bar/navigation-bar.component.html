@@ -23,13 +23,13 @@
         <a class="nav-link navlink" href="#home-link">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link navlink" href="#projects-link">Projects</a>
+        <a class="nav-link navlink" href="#projects">Projects</a>
       </li>
       <li class="nav-item">
         <a class="nav-link navlink"  [href]="resume" target="_blank">Resume</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link navlink" href="#contact-link">Contact</a>
+      <li>
+        <a id="time">{{ time | date: 'h:mm a' }}</a>
       </li>
     </ul>
 

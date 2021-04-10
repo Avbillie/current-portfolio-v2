@@ -1,0 +1,28 @@
+.footer-qoute-section {
+  background-color: #343a40;
+  height: max-content;
+  padding: 1rem;
+}
+
+.footer-qoute-container {
+  text-align: center;
+  justify-content: center;
+
+}
+
+.footer-carousel {
+  display: flex;
+  background-position: center;
+  background-size: 100%;
+  border: 5px;
+  height: max-content;
+  box-sizing: content-box;
+  width: 100%;
+}
+
+.qoute {
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+}
+
