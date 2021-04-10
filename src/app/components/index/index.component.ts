@@ -15,7 +15,7 @@ export class IndexComponent implements OnInit  {
       this.condition = true
     }
   }
-  arrowup = '/assets/images/chevron-up.jpg'
+  arrowup = './assets/images/chevron-up.jpg'
   topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
