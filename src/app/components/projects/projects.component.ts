@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectsComponent implements OnInit {
   weatherDashboard ={
     title: 'Astral Weather',
-    image:'./assets/images/astralWeather.jpg?raw=true',
+    image:'./assets/images/astralWeather.JPG?raw=true',
     link: 'https://avbillie.github.io/astral-weather/dashboard',
     text:'An interactive web weather application that displays the daily and seven day forecast of the inputted city.'
   };
