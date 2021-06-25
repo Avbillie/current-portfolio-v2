@@ -2,6 +2,15 @@
 .nav-bar {
   background-color: #343a40 !important;
   height: 6rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+  padding: 0 1rem;
+  box-shadow: 0 0.130rem 0.60rem 0 rgb(0 0 0 / 20%);
+  border-bottom: 1px solid palegoldenrod;
 }
 
 .nav-bar-toggler {
